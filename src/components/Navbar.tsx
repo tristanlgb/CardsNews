@@ -7,7 +7,7 @@ const AppNavbar: React.FC = () => {
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          ⚛️ React News
+          ⚛️ Cards News
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
