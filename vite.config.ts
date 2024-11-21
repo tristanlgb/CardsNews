@@ -1,10 +1,13 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// vite.config.ts
 
-// https://vite.dev/config/
+// Remove these lines if not used
+// import { defineConfig } from 'vite';
+// import react from '@vitejs/plugin-react';
+
+// Ensure you're exporting the actual configuration object
 export default {
   server: {
     host: "0.0.0.0",
-    port: 5173, // Optional: Specify a port if needed
+    port: process.env.PORT || 5173,
   },
 };
